@@ -1,0 +1,30 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "factoryName": {
+            "value": "project2-adf-blob-sqldb"
+        },
+        "LS_Blob_Storage_connectionString": {
+            "value": ""
+        },
+        "LS_SQL_DB_password": {
+            "value": ""
+        },
+        "LS_SQL_DB_properties_typeProperties_server": {
+            "value": "finaloutputdbserver.database.windows.net"
+        },
+        "LS_SQL_DB_properties_typeProperties_database": {
+            "value": "output-db"
+        },
+        "LS_SQL_DB_properties_typeProperties_userName": {
+            "value": "admin01"
+        },
+        "containerUri": {
+            "value": ""
+        },
+        "containerSasToken": {
+            "value": ""
+        }
+    }
+}
